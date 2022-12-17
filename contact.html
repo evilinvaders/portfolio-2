@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <h1>Portfolio Website</h1>
+        </div>
+      </header>
+
+    <main>
+        <h2>Contact</h2>
+
+        <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+
+            <div>
+                <label class="label" for="send-to">Stuur de mail naar</label>
+                <select id="send-to" name="send-to">
+                    <option value="0">Antwan</option>
+                    <option value="1">Bas</option>
+                    <option value="2">Erik</option>
+                    <option value="3">Martijn</option>
+                </select>
+            </div>
+
+            <section class="formulier">
+                <section>
+                    <label for="name">Naam:</label> <input type="name" id="name" name="name" placeholder="Naam"
+                        required>
+                </section>
+                <section>
+                    <label for="city">Woonplaats:</label> <input type="text" id="city" name="city"
+                        placeholder="Woonplaats" required>
+                </section>
+                <section>
+                    <label for="email">Email:</label> <input type="email" id="email" name="email"
+                        placeholder="studentmummer@hr.nl" required>
+                </section>
+                <section>
+                    <label for="birthday">Datum:</label> <input type="date" id="date" name="date">
+                </section>
+                <section>
+                    <label for="category">Categorie</label> <select id="category" name="category">
+                        <option value="html">Html</option>
+                        <option value="css">Css</option>
+                </section>
+                <section>
+                    <label for="question">Vraag:</label> <input type="question" id="question" name="question"
+                        placeholder="Stel hier je vraag." required>
+                </section>
+            </section>
+
+            <button type="submit">Versturen</button>
+
+        </form>
+    </main>
+
+    <footer class="form-footer">
+        <a href="https://www.instagram.com/powerthrashingdeath/" target="_blank">Instagram</a>
+    </footer>
+
+</body>

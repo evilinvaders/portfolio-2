@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+  color: rgb(182, 1, 1);
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: block;
+  background-color: black;
+  border: 10px solid black;
+  position: sticky;
+  top: 0px;
+}
+
+.hero {
+  background-image: url(https://th.bing.com/th/id/R.28ede394260a75598486cf0b58f8ea7b?rik=wD8WCNn0%2fEh9bA&pid=ImgRaw&r=0);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin: 80px;
+}
+
+h2 {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 10px solid rgb(182, 1, 1);
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.info h3 {
+  color: white;
+}
+
+ul {
+  margin-bottom: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.switch-rating h3 {
+  color: white;
+}
+
+.games {
+  width: 90%;
+}
+
+.switch-rating {
+  margin-left: 20px;
+}
+
+.switch-games {
+  margin-left: 20px;
+  width: 1325px;
+  height: 500px;
+}
+
+.card {
+  width: 30vw;
+  margin: 0 auto;
+  border: 4px solid rgb(182, 1, 1);
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+  width: 100%;
+}
+
+.name {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.skills {
+  padding: 10px;
+}
+
+.cards {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: flex
+}
+
+footer {
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(182, 1, 1);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: sticky;
+}
+
+.form-footer {
+  margin-top: 18vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  .cards {
+    display: block !important;
+  }
+
+  .card {
+    width: 70vw !important;
+    margin-bottom: 70px;
+  }
+
+  body {
+    margin-left: 30px;
+  }
+
+  .heading-picture {
+    width: 75vw;
+    height: 30vw;
+  }
+
+  .switch-games {
+    width: 80vw;
+    height: 40vw;
+  }
+}
